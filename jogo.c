@@ -73,3 +73,27 @@ int main() {
     desaloca (mat, i);
     return EXIT_SUCCESS;
 }
+/*
+/*  
+
+O JOG2 deve colocar pecas em um tabuleiro, mas só pode colocá-las em posições onde a quantidade de vizinhos com peças adversárias seja par.  
+Os vizinhos são as posições ao lado, acima e abaixo.  
+
+Input  
+- N e M: dimensões do tabuleiro.  
+- Grid com N linhas e M colunas, onde 'X' representa peças de JOG1 e '.' representa posições livres.  
+
+Output  
+- Matriz com peças de JOG1 marcadas com 'X' e posições válidas para JOG2 com '*'.  
+- Posições onde JOG2 não pode colocar uma peça devem manter o caracter original.  
+
+Requisitos:  
+- Utilizar funções, matrizes e alocação dinâmica.  
+- 1 <= N <= 1000 e 1 <= M <= 1000  
+
+EXEMPLO:
+Entrada Saida
+2 3     .*X
+..X     XX*
+XX.
+*/  

@@ -24,3 +24,17 @@ int main () {
     }
         return EXIT_SUCCESS;
 }
+/*
+Serao dadas Q perguntas, em cada uma, sera dado um valor N e voce 
+deve retornar para cada uma se o valor N e primo ou nao.  
+
+Input  
+1 <= Q <= 10^6  
+2 <= N <= 1500000  
+
+Output  
+Entrada Saida  
+2       Sim  
+101     Nao
+30  
+*/

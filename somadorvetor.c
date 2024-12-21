@@ -35,3 +35,27 @@ int main () {
 	printf("%ld\n", soma);
 	return EXIT_SUCCESS;
 }
+
+/*
+Voce deve somar dois valores binarios dados e retornar o resultado em decimal. Para resolver o problema, voce deve usar vetores,
+mas nao pode usar o operador `[i]` para acessar as posicoes do vetor.
+
+Input
+- Na primeira linha, dois inteiros `N` e `M` que representam o numero de bits dos dois valores (0 <= N, M <= 30).  
+- Na segunda linha, `N` inteiros representando os bits do primeiro numero binario, comecando pelo bit mais significativo.  
+- Na terceira linha, `M` inteiros representando os bits do segundo numero binario, comecando pelo bit mais significativo.  
+
+Output
+
+A soma dos dois valores binarios convertida para decimal, seguida de uma quebra de linha.
+
+Exemplo
+Entrada  Saida
+3 4      13
+1 0 1
+1 0 0 0
+Entrada  Saida
+3 3      8
+1 0 1
+0 1 1
+*/
