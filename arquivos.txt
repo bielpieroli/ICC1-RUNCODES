@@ -1,0 +1,12 @@
+01_algoritmo
+02_imprima
+03_corrida
+04_memoria
+05_fatsimples
+06_fatdesafio
+07_somador
+08_inverta
+09_somadorvetor
+10_palindromo
+11_primo
+12_jogo
