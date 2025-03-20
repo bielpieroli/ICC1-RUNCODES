@@ -5,8 +5,8 @@ TEST_DIR = Testes
 CODIGOS_DIR = Codigos
 EXEC_DIR = Executaveis
 
-SRC = $(wildcard $(CODIGOS_DIR)/*.c)
-EXEC = $(patsubst $(CODIGOS_DIR)/%.c,$(EXEC_DIR)/%,$(SRC))
+SRC = $(wildcard $(CODIGOS_DIR)/*.c) 
+EXEC = $(patsubst $(CODIGOS_DIR)/%.c,$(EXEC_DIR)/%,$(SRC)) 
 
 # Regra principal para compilar todos os arquivos
 all: clean $(EXEC_DIR) $(EXEC)
